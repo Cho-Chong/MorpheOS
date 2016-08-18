@@ -8,7 +8,7 @@ extern "C" {
 #endif
 
 __attribute__((__noreturn__))
-void abort(void);
+extern void abort(void);
 
 #ifdef __cplusplus
 }
